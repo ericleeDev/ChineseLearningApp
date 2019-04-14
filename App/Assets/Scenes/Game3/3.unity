@@ -155,6 +155,10 @@ PrefabInstance:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4497055787654456, guid: c10877f7cd5764de18d46d7b777d1faa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 20155940112608238, guid: c10877f7cd5764de18d46d7b777d1faa,
         type: 3}
       propertyPath: m_NormalizedViewPortRect.width
@@ -179,10 +183,6 @@ PrefabInstance:
         type: 3}
       propertyPath: far clip plane
       value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: 4497055787654456, guid: c10877f7cd5764de18d46d7b777d1faa, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c10877f7cd5764de18d46d7b777d1faa, type: 3}
@@ -284,12 +284,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 251732698}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0e3837cd44482a8459c76be5c56a41d3, type: 3}
+  m_Script: {fileID: 11500000, guid: 23ab53c4c96a0b24ea8e8942d234fb36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   AutoGetDefaultColor: 1
   DefaultColor: {r: 1, g: 1, b: 1, a: 1}
-  SelectedColor: {r: 0.7169812, g: 0.6933073, b: 0.6933073, a: 1}
+  SelectedColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &251732701
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -299,7 +299,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 251732698}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83dcd8dace8b7fe449d796b980cb121d, type: 3}
+  m_Script: {fileID: 11500000, guid: 3b2e9ba9401f6c247b791abfcb214bb6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   DeselectOnUp: 0
@@ -373,7 +373,7 @@ PrefabInstance:
     - target: {fileID: 3190732103918002618, guid: e2a63f1f28575a549abdfbc4eb9b28d2,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3190732103918002618, guid: e2a63f1f28575a549abdfbc4eb9b28d2,
         type: 3}
@@ -398,7 +398,7 @@ PrefabInstance:
     - target: {fileID: 2755354645320717707, guid: e2a63f1f28575a549abdfbc4eb9b28d2,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2755354645320717707, guid: e2a63f1f28575a549abdfbc4eb9b28d2,
         type: 3}
@@ -510,7 +510,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 22498348, guid: e2a63f1f28575a549abdfbc4eb9b28d2, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 11448614, guid: e2a63f1f28575a549abdfbc4eb9b28d2, type: 3}
       propertyPath: m_Text
@@ -537,6 +537,19 @@ PrefabInstance:
     - target: {fileID: 1538843524874328, guid: e2a63f1f28575a549abdfbc4eb9b28d2, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 22480264, guid: e2a63f1f28575a549abdfbc4eb9b28d2, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 22410238, guid: e2a63f1f28575a549abdfbc4eb9b28d2, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224032894659083038, guid: e2a63f1f28575a549abdfbc4eb9b28d2,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2a63f1f28575a549abdfbc4eb9b28d2, type: 3}
@@ -665,7 +678,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 627916101}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 26074b15f9c13404d858bfedb8b8c00c, type: 3}
+  m_Script: {fileID: 11500000, guid: 1c594c82022b1c2448f0a4fd7dc7c77f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   FirstPersonCamera: {fileID: 896679035}
@@ -954,12 +967,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 728789950}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0e3837cd44482a8459c76be5c56a41d3, type: 3}
+  m_Script: {fileID: 11500000, guid: 23ab53c4c96a0b24ea8e8942d234fb36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   AutoGetDefaultColor: 1
   DefaultColor: {r: 1, g: 1, b: 1, a: 1}
-  SelectedColor: {r: 0.7169812, g: 0.6933073, b: 0.6933073, a: 1}
+  SelectedColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &728789953
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -969,7 +982,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 728789950}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83dcd8dace8b7fe449d796b980cb121d, type: 3}
+  m_Script: {fileID: 11500000, guid: 3b2e9ba9401f6c247b791abfcb214bb6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   DeselectOnUp: 0
@@ -1506,12 +1519,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1220381953}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0e3837cd44482a8459c76be5c56a41d3, type: 3}
+  m_Script: {fileID: 11500000, guid: 23ab53c4c96a0b24ea8e8942d234fb36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   AutoGetDefaultColor: 1
   DefaultColor: {r: 1, g: 1, b: 1, a: 1}
-  SelectedColor: {r: 0.7169812, g: 0.6933073, b: 0.6933073, a: 1}
+  SelectedColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &1220381956
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1521,7 +1534,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1220381953}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83dcd8dace8b7fe449d796b980cb121d, type: 3}
+  m_Script: {fileID: 11500000, guid: 3b2e9ba9401f6c247b791abfcb214bb6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   DeselectOnUp: 0
@@ -1680,12 +1693,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1262212353}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0e3837cd44482a8459c76be5c56a41d3, type: 3}
+  m_Script: {fileID: 11500000, guid: 23ab53c4c96a0b24ea8e8942d234fb36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   AutoGetDefaultColor: 1
   DefaultColor: {r: 1, g: 1, b: 1, a: 1}
-  SelectedColor: {r: 0.7169812, g: 0.6933073, b: 0.6933073, a: 1}
+  SelectedColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!114 &1262212355
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1695,7 +1708,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1262212353}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83dcd8dace8b7fe449d796b980cb121d, type: 3}
+  m_Script: {fileID: 11500000, guid: 3b2e9ba9401f6c247b791abfcb214bb6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   DeselectOnUp: 0
@@ -1925,18 +1938,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1650081524}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1fc98219a83dff145947365dc914d06e, type: 3}
+  m_Script: {fileID: 11500000, guid: 3377237946320f14a87cd65a80531d15, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  TapThreshold: 0.5
-  SwipeThreshold: 50
+  TapThreshold: 0.2
+  SwipeThreshold: 100
   ReferenceDpi: 200
   GuiLayers:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 4294967291
   RecordFingers: 1
   RecordThreshold: 5
-  RecordLimit: 0
+  RecordLimit: 10
   SimulateMultiFingers: 1
   PinchTwistKey: 306
   MovePivotKey: 308
@@ -1983,7 +1996,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1735963281}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7c1c71d8ad5da9438de3b2e5990763f, type: 3}
+  m_Script: {fileID: 11500000, guid: 78a2ab9bd7b56bd448d578c0d334a64e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   IgnoreStartedOverGui: 0
@@ -2016,7 +2029,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1735963281}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 449059554a80e7040a4fc17aaf3e8637, type: 3}
+  m_Script: {fileID: 11500000, guid: f079d746e01719f459825f5a07cfa379, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   SelectUsing: 2
@@ -2235,7 +2248,7 @@ RectTransform:
   - {fileID: 1262212359}
   - {fileID: 1220381954}
   m_Father: {fileID: 252120455}
-  m_RootOrder: 3
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}

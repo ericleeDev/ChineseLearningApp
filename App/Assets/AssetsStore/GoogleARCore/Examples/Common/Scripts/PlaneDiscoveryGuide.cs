@@ -242,9 +242,8 @@ namespace GoogleARCore.Examples.Common
             else if (m_IsLostTrackingDisplayed)
             {
                 // The session has moved from the lost tracking state.
-                //m_SnackBar.SetActive(false);
+                m_SnackBar.SetActive(false);
                 m_IsLostTrackingDisplayed = false;
-                m_SnackBarText.text = "Please select the color of the card!";
             }
 
             if (m_NotDetectedPlaneElapsed > DisplayGuideDelay)
@@ -264,7 +263,7 @@ namespace GoogleARCore.Examples.Common
 
                 if (m_NotDetectedPlaneElapsed > OfferDetailedInstructionsDelay)
                 {
-                    m_SnackBarText.text = "Please select the color of the card!";
+                    m_SnackBarText.text = "Need Help?";
                     m_OpenButton.SetActive(true);
                 }
                 else
@@ -279,7 +278,7 @@ namespace GoogleARCore.Examples.Common
                 // 'DisplayGuideDelay' or at least one plane has been tracking for more than
                 // 'k_HideGuideDelay'.
                 m_FeaturePoints.SetActive(false);
-                //m_SnackBar.SetActive(false);
+                m_SnackBar.SetActive(false);
                 m_OpenButton.SetActive(false);
 
                 if (m_HandAnimation.enabled)
@@ -287,7 +286,6 @@ namespace GoogleARCore.Examples.Common
                     m_HandAnimation.GetComponent<CanvasRenderer>().SetAlpha(1f);
                     m_HandAnimation.CrossFadeAlpha(0f, k_AnimationFadeDuration, false);
                 }
-                m_SnackBarText.text = "Please select the color of the card!";
 
                 m_HandAnimation.enabled = false;
             }

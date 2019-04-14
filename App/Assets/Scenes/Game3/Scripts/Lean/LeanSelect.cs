@@ -121,8 +121,11 @@ namespace Lean.Touch
 					var redCard = GameObject.Find("Anchor");
 					var hitCount = 0;
 
+					Debug.Log("Select CanvasUI!");
+
 					if (results != null && results.Count > 0)
 					{
+						Debug.Log("Select element!");
 						component = results[0].gameObject.transform;
 						if(redCard != null){
 							switch(component.name){
